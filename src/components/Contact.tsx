@@ -50,21 +50,21 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email Us',
-      detail: 'info@afrisinc.com',
-      link: 'mailto:info@afrisinc.com',
+      detail: 'afrisinc@gmail.com',
+      link: 'mailto:afrisinc@gmail.com',
       color: 'from-blue-500 to-cyan-600',
     },
     {
       icon: Phone,
       title: 'Call Us',
-      detail: '+27 (0) 123 456 789',
-      link: 'tel:+27123456789',
+      detail: '+25 (0) 793 145 487',
+      link: 'tel:+25793145487',
       color: 'from-green-500 to-emerald-600',
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      detail: 'Johannesburg, South Africa',
+      detail: 'Kigali/Rwanda, East-Central Africa',
       link: '#',
       color: 'from-orange-500 to-red-600',
     },
@@ -73,8 +73,8 @@ export default function Contact() {
   const socialLinks = [
     { icon: Linkedin, link: '#', label: 'LinkedIn', color: 'hover:text-blue-600' },
     { icon: Twitter, link: '#', label: 'Twitter', color: 'hover:text-sky-500' },
-    { icon: Facebook, link: '#', label: 'Facebook', color: 'hover:text-blue-700' },
-    { icon: Instagram, link: '#', label: 'Instagram', color: 'hover:text-pink-600' },
+    { icon: Facebook, link: 'https://www.facebook.com/profile.php?id=61580995646744', label: 'Facebook', color: 'hover:text-blue-700' },
+    { icon: Instagram, link: 'https://www.instagram.com/afrisinc_inc/', label: 'Instagram', color: 'hover:text-pink-600' },
   ]
 
   return (
@@ -162,10 +162,10 @@ export default function Contact() {
                 For partnerships, investment opportunities, or large-scale projects, please
                 reach out to our business development team at{' '}
                 <a
-                  href="mailto:business@afrisinc.com"
+                  href="mailto:afrisinc@gmail.com"
                   className="text-primary-600 font-semibold hover:underline"
                 >
-                  business@afrisinc.com
+                  afrisinc@gmail.com
                 </a>
               </p>
             </motion.div>
